@@ -17,9 +17,9 @@
     <!----------------------
     --Header section start--
     ----------------------->
-    <header>
+    <header >
         <!-- navigation start -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar container navbar-expand-lg navbar-light my-4">
             <div class="container container-fluid">
                 <a class="navbar-brand text-black fw-bold" href="#">Marriott Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -28,17 +28,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link " aria-current="page" href="#">Home</a>
-                        <a class="nav-link " href="#">About us</a>
-                        <a class="nav-link " href="#">Contact</a>
-                        <a class="nav-link " href="#">Subscribe</a>
+                        <a class="nav-link " aria-current="page" href="https://www.programming-hero.com/index.html">Home</a>
+                        <a class="nav-link " href="https://www.programming-hero.com/about-us.html">About us</a>
+                        <a class="nav-link " href="https://app.programming-hero.com/contact/">Contact</a>
+                        <a class="nav-link " href="https://www.youtube.com/c/ProgrammingHero">Subscribe</a>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- navigation end -->
         <!-- images carousel start-->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -91,14 +91,14 @@
     <!--------------------
         --Main Section Start--
         --------------------->
-    <main class="container">
+    <main>
 
         <!-- features section start -->
-        <div class=" d-flex align-items-center">
-            <div>
-                <img src="Images/images/wedding.png" alt="wedding photo">
+        <div class=" align-items-center row my-5">
+            <div class="col-12 col-lg-6 ">
+                <img class="img-fluid" src="Images/images/wedding.png" alt="wedding photo">
             </div>
-            <div> 
+            <div class="my-5 col-12 col-lg-6"> 
                 <h3>Every moment is Precious</h3>
                 <p>We loved with a love that was more than love." "Love is like a friendship caught on fire." "When you realize you want to
                 spend the rest of your life with somebody, you want the rest of your life to start as soon as possible." "The highest
@@ -111,8 +111,8 @@
         <!-- package section start -->
         <div>
             <h3 class="text-center my-5">Our package</h3>
-            <div class="container package row w-auto my-5 ">
-                <div class="col mt-5 mx-1">
+            <div class=" package row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3 p-4 m-2 mt-5 shadow ">
                     <h3>&#36;300</h3>
                     <h4>Business fair</h4>
                     <p>For most businesses event like book fair, craft fair.</p>
@@ -123,7 +123,7 @@
                     <p><i class="fas fa-check-circle"></i> per Day bill</p>
                     <button class="border-0 bg-info px-4 py-2 text-light fw-bold rounded-pill">Choose Plan</button>
                 </div>
-                <div class="col mt-5 mx-1">
+                <div class="col-12 col-md-6 col-lg-3 shadow p-4 mt-5 m-2">
                     <h3>$500</h3>
                     <h4>Wedding basic</h4>
                     <p>For weddings with basic plan and limited item</p>
@@ -134,7 +134,7 @@
                     <p><i class="fas fa-check-circle"></i> Billed as shift</p>
                     <button class="border-0 bg-info px-4 py-2 text-light fw-bold rounded-pill">Choose Plan</button>
                 </div>
-                <div class="highlight col shadow-lg  p-3 mx-1 position-relative rounded-3 bg-info">
+                <div class="highlight col-12 shadow col-md-6 p-4 m-2 col-lg-3 shadow-lg position-relative rounded-3 bg-info">
                     <span class="position-absolute top-0 px-3 py-2 start-100 translate-middle badge rounded-pill bg-danger">
                         HOT
                     </span>
@@ -148,10 +148,10 @@
                     <p class="text"><i class="fas fa-check-circle text-icon"></i> pay as plan</p>
                     <button class="border-0 bg-light fw-bold px-4 py-2 text-info rounded-pill">Choose Plan</button>
                 </div>
-                <div class="col mt-5 mx-1">
+                <div class="col-12 col-md-6 shadow col-lg-3 mt-5 m-2 p-4">
                     <h3>$1200</h3>
                     <h4>Corporate event</h4>
-                    <p>For most corporate business events</p>
+                    <p>For most corporate business <br> events</p>
                     <p><i class="fas fa-check-circle"></i> Full space access</p>
                     <p><i class="fas fa-check-circle"></i> Dedicated team</p>
                     <p><i class="fas fa-check-circle"></i> Buffet food</p>
@@ -164,36 +164,35 @@
         <!-- package section End -->
 
         <!-- about our service start -->
-         <div class="container ">
-             <h3 class="text-center">Details</h3>
-              <div class="d-flex justify-content-center">
-                  <div class="service-card shadow  m-2">
+         <div class="container my-5">
+             <h3 class="text-center my-5">Details</h3>
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-6 col-lg-3 service-card shadow ">
                     <i class="fas fa-chair icon text-info"></i>
                       <h5 class="text-center">Capacity 1800</h5>
                   </div>
-                  <div class="service-card shadow  m-2">
+                  <div class=" col-12 col-md-6 col-lg-3 service-card shadow">
                     <i class="fas fa-utensils icon text-info"></i>
                       <h5 class="text-center">Batch 500</h5>
                   </div>
-                  <div class="service-card shadow  m-2">
+                  <div class="col-12 col-md-6 col-lg-3 service-card shadow  ">
                     <i class="fas fa-home icon text-info"></i>
                       <h5 class="text-center">Area size 12500 sq ft</h5>
                   </div>
-                  <div class="service-card shadow  m-2">
+                  <div class="col-12 col-md-6 col-lg-3 service-card shadow ">
                     <i class="fas fa-parking icon text-info"></i>
                       <h5 class="text-center">Garage Available</h5>
                   </div>
                   
-                
-              </div>
+                </div>
          </div>
         <!-- about our service end -->
 
         <!-- Questions section start-->
         <div class="container">
-            <h3 class="text-center">Frequently Asked Questions</h3>
-            <div class="d-flex">
-                <div>
+            <h3 class="text-center my-5">Frequently Asked Questions</h3>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -267,42 +266,45 @@
                         </div>
                     </div>
                 </div>
-                <div >
+                <div class="col-12 col-md-6 ">
                     <img class="img-fluid w-100" src="Images/images/people.png" alt="">
                 </div>
             </div>
         </div>
         <!-- Questions section end-->
 
-                <!-- Client section start -->
-                
-                <div class="container mt-5">
-                    <h3 class="text-center my-5">Happy Clients says</h3>
-                    <div class="d-flex ">
-                        <div class="client-container rounded-3 shadow p-4 mx-3">
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                                year.</p>
-                            <img src="Images/images/person 1.png" alt="">
-                            <h5 class="mt-4">Regina Miles</h5>
-                            <span>Banker</span>
-                        </div>
-                        <div class="client-container rounded-3 shadow p-4 mx-3">
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                                year.</p>
-                            <img src="Images/images/person 2.png" alt="">
-                            <h5 class="mt-4">Jone Drake</h5>
-                            <span>Banker</span>
-                        </div>
-                        <div class="client-container rounded-3 shadow p-4 mx-3">
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
-                                year.</p>
-                            <img src="Images/images/person 3.png" alt="">
-                            <h5 class="mt-4">Cret Yater</h5>
-                            <span>Banker</span>
-                        </div>
+     <!-- Client section start -->
+        <div class="container">
+            
+                <h3 class="text-center my-5">Happy Clients says</h3>
+                <div class="row client-card">
+                    <div class="col-12 col-md-4 client-container rounded-3 border ">
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
+                            year.</p>
+                        <img class="img-fluid" src="Images/images/person 1.png" alt="">
+                        <h5 class="mt-4">Regina Miles</h5>
+                        <span>Banker</span>
+                    </div>
+                    <div class="col-12 col-md-4 client-container border rounded-3 ">
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
+                            year.</p>
+                        <img class="img-fluid" src="Images/images/person 2.png" alt="">
+                        <h5 class="mt-4">Jone Drake</h5>
+                        <span>Banker</span>
+                    </div>
+                    <div class="border  col-12 col-md-4  client-container rounded-3  ">
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and
+                            year.</p>
+                        <img class="img-fluid" src="Images/images/person 3.png" alt="">
+                        <h5 class="mt-4">Cret Yater</h5>
+                        <span>Banker</span>
                     </div>
                 </div>
-                <!-- Client section end -->
+           
+        </div>
+                
+               
+     <!-- Client section end -->
     
     </main>
     <!------------------
@@ -310,15 +312,15 @@
     ------------------->
     <!-- footer section start -->
     <footer>
-        <div class="d-flex">
-            <div>
-                <p>© 2020 bike. All rights reserved</p>
+        <div class="row  bg-dark align-items-center py-5 mt-5">
+            <div class="col-12 col-lg-6 d-flex justify-content-center ">
+                <p class="text-light"> 2022 © Tanvir. All rights reserved</p>
             </div>
-            <div>
-                <h3>Get the App</h3>
-                <div>
-                    <img src="Images/icons/pngegg (1).png" alt="">
-                    <img src="Images/icons/pngegg.png" alt="">
+            <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+                <h3 class="text-light">Get the App</h3>
+                <div class=" d-flex flex-column">
+                   <a href=""><img class="img-fluid m-2" src="Images/icons/pngegg (1).png" alt=""></a>
+                   <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US"><img class="img-fluid m-2" src="Images/icons/pngegg.png" alt=""></a>
                 </div>
             </div>
         </div>
