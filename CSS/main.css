@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&family=Roboto&display=swap');
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+/* header navigation */
+.nav-link{
+    font-weight: 500;
+}
+/* carousel-inner */
+.carousel-item button {
+    font-weight: 500;
+}
+.carousel-caption h3, p{
+    color:rgb(255, 255, 255);
+}
