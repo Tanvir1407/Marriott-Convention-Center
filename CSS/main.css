@@ -13,3 +13,28 @@ body{
 .carousel-caption > h3, .carousel-caption > p{
     color:rgb(255, 255, 255);
 }
+
+.package> div> h3,.package> div> h4 {
+    color: #231D4F;
+    font-weight: 700;
+}
+.package>div>p{
+    color: #848199;
+}
+.package>div>p>i{
+    color: rgb(209, 209, 209);
+}
+.highlight .text{
+    color: rgb(238, 237, 237);
+}
+.text .text-icon{
+     color: rgb(238, 237, 237);
+}
+.client-container{
+    width: 360px;
+    height: 323px;
+    text-align: center;
+}
+.client-container{
+    color:#6C6C6C;
+}
