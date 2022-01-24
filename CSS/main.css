@@ -46,3 +46,6 @@ body{
     text-align: center;
     font-size: 50px;
 }
+.toast{
+    z-index: 2;
+}
